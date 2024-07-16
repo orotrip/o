@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Oro trip</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Oro<span>Trip</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "coplaces.html" class = "nav-link">places</a>
+                        </li>
+                        
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex header-sm">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Places to visit</h1>
+                    <p>know about some coo destination.</p>
+                </div>
+                  <div class="search">
+
+                    <i class="fa fa-search"></i>
+
+                    <input type="text" placeholder="your jouney begins with a search..." id="searchInput">
+                    <button onclick="filterPlaces()">search</button>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- gallery section -->
+
+        <!-- end of gallery section -->
+
+        <!-- img modal -->
+
+        <!-- end of img modal -->
+
+        <!-- popular places section -->
+        <section id = "popular" class = "py-4">
+
+          
+
+            <div class = "popular-row">
+                        
+                <div class = "popular-item shadow">
+  <a href="/orotrip/places/wonci.html">
+          
+                  
+         
+                    <img src = "images/10bb.jpg" alt = "">
+                    <div>
+                        <span>Wonchi creator lake</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Beutiful volcanic craetor lake           that is named as"African switherland"</p>
+                
+                                
+                        
+                                     </a>
+                    </div>
+
+                </div>
+
+                <div class = "popular-item shadow">
+                        <a href="places/bale-mountains.html">
+                    <img src = "images/1bb.jpg" alt = "">
+                    <div>
+                        <span>Bale mountains national park</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">contains a speculary diverse landscape. the high altitude,afro mountane sanattii plateou rises 4000m </p>
+                    </div></a>
+                </div>
+
+                <div class = "popular-item shadow">
+                        <a href="places/sofumar.html">
+                    <img src = "images/2aa.jpg" alt = "">
+                    <div>
+                            
+                        <span>sof umar cave</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">sof umar cave is one of most spectacular and extensive underground caverns in the world</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class = "popular-item shadow">
+                        <a href="places/langano.html">
+                    <img src = "images/3ee.jpg" alt = "">
+                    <div>
+                        <span>Langano lake</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">softer brown color lake. which is suitable for swimming.</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class = "popular-item shadow">
+                        <a href="places/awash.html">
+                    <img src = "images/4aa.jpg" alt = "">
+                    <div>
+                        <span>Awash national park</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Home of various birds flamingo home of rivers</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class = "popular-item shadow">
+                        <a href="places/ziway-lake.html">
+                    <img src = "images/5aa.jpg" alt = "">
+                    <div>
+                        <span>Lake ziway</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">One of largest of northern Rift valley lakes.</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class = "popular-item shadow">
+                        <a href="places/zuquala.html">
+                    <img src = "images/9bb.jpg" alt = "">
+                    <div>
+                        <span>mount zuquala</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">the view from it include many smaller hiles and chain mountains.the creator lake sorrounded</p>
+                    </div>
+                    </a>
+                </div>
+
+                <div class = "popular-item shadow">
+               <a href="places/harar.html">
+                    <img src = "images/11cc.jpg" alt = "">
+                    <div>
+                        <span>Harar jagol wall</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">the exeptional interior design constitutes the most of spectacular part of harar city</p>
+                    </div>
+                    </a>
+                </div>
+                <div class = "popular-item shadow">
+               <a href="places/babile-elephant.html">
+                    <img src = "images/13bb.jpg" alt = "">
+                    <div>
+                        <span>Babile elephant sanctuary</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">Originally gazzeted protect a supposed elephant subspecies  </p>
+                    </div>
+                    
+                    </a>
+                </div>
+                <div class="popular-item shadow">
+                <a href="places/bishoftu-lake.html">
+                        <img src="images/17bb.jpg" alt="">
+                        <div>
+                                <span>Lake bishoftu</span>
+                                <ul class="rating flex">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half-alt"></i></li>
+                                        <li>&nbsp;400 reviews</li>
+                                </ul>
+                                <p class="text">lies immedietly south of the town center </p>
+                        </div>
+                        </a>
+                </div>
+                <div class="popular-item shadow">
+                <a href="places/sodere.html">
+                        <img src="images/20dd.jpg" alt="">
+                        <div>
+                                <span>Sodere hotspring</span>
+                                <ul class="rating flex">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half-alt"></i></li>
+                                        <li>&nbsp;400 reviews</li>
+                                </ul>
+                                <p class="text">popular resort area with rosert hotel</p>
+                        </div>
+                        </a>
+                </div>
+  
+                <div class="popular-item shadow">
+                <a href="#">
+                        <img src="images/23ee.jpg" alt="">
+                        <div>
+                                <span>lega oda elephant schancuary</span>
+                                <ul class="rating flex">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half-alt"></i></li>
+                                        <li>&nbsp;400 reviews</li>
+                                </ul>
+                                <p class="text">the dumbel shaped lake.</p>
+                        </div>
+                        </a>
+                </div>
+                <div class="popular-item shadow">
+                <a href="#">
+                        <img src="images/24ee.jpg" alt="">
+                        <div>
+                                <span>Harennaa forest</span>
+                                <ul class="rating flex">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half-alt"></i></li>
+                                        <li>&nbsp;400 reviews</li>
+                                </ul>
+                                <p class="text">montane tropical evergreen forest in Ethiopia's bale mountains</p>
+                        </div>
+                        </a>
+                </div>
+                <div class="popular-item shadow">
+                <a href="#">
+                        <img src="images/25cc.jpg" alt="">
+                        <div>
+                                <span>Yabelo wild life scantury</span>
+                                <ul class="rating flex">
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star"></i></li>
+                                        <li><i class="fas fa-star-half-alt"></i></li>
+                                        <li>&nbsp;400 reviews</li>
+                                </ul>
+                                <p class="text">the home of the endemic birds of ethiopia</p>
+                        </div>
+                        </a>
+                </div>
+                <div class = "popular-item shadow">
+               <a href="#">
+                    <img src = "images/6aa.jpg" alt = "">
+                    <div>
+                        <span>Mount batu</span>
+                        <ul class = "rating flex">
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star"></i></li>
+                            <li><i class = "fas fa-star-half-alt"></i></li>
+                            <li>&nbsp;400 reviews</li>
+                        </ul>
+                        <p class = "text">one of the tallest mountains in ethiopia</p>
+                        
+                    </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of popular places section -->
+        
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Oro<span>Trip</span>
+                    </a>
+                    <p class = "text">Cheap Romantic Vacations in oromia. Many people feel that there is a limited amount of abundance, wealth, or chance to succeed in life.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+<ul>
+                           <li><a href="index.html">Home</a></li>
+                           <li><a href="coplaces.html">Places</a></li>
+                           <li><a href="gallery.html">Gallery</a></li>
+                           <li><a href="about.html">About</a></li>
+                           <li><a href="contact.html">contact</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // image modal
+// JavaScript code to filter the places based on search input
+function filterPlaces() {
+    const searchInput = document.getElementById('searchInput').value.toLowerCase();
+    const popularItems = document.querySelectorAll('.popular-item');
+
+    popularItems.forEach(item => {
+        const placeName = item.querySelector('span').textContent.toLowerCase();
+        if (placeName.includes(searchInput)) {
+            item.style.display = 'block';
+        } else {
+            item.style.display = 'none';
+        }
+    });
+}
+
+        </script>
+    </body>
+</html>
